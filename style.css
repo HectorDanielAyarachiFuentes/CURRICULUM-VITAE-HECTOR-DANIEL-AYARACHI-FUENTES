@@ -1,0 +1,98 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 5px 0;
+            color: #777;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            background-color: #007bff;
+            color: #fff;
+            padding: 12px;
+            margin: 0;
+            font-size: 24px;
+            border-radius: 6px;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section li {
+            margin-bottom: 10px;
+        }
+
+        .section li:hover {
+            background-color: #f0f0f0;
+            transition: background-color 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+        .profile-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 0;
+            border-radius: 0 0 8px 8px;
+        }
+
+        footer a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.2s ease-in-out;
+        }
+
+        footer a:hover {
+            color: #f0f0f0;
+        }
