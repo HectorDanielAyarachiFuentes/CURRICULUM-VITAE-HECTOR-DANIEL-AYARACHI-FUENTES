@@ -56,5 +56,45 @@
   "email": {
     "id": 11,
     "direccion": "mp4o@hotmail.com"
-  }
+  },
+  "resumen": {
+    "id": 12,
+    "titulo": "Resumen",
+    "contenido": "Soy Héctor Daniel Ayarachi Fuentes, una persona enérgica y apasionada, con habilidades de comunicación sólidas. Mi enfoque está en la creatividad, el trabajo en equipo y la ética profesional. Busco constantemente aprender y crecer."
+  },
+  "experienciaLaboral": [
+    {
+      "id": 13,
+      "nombreEmpresa": "Nombre de la Empresa 1",
+      "cargo": "Cargo 1",
+      "fecha": "Fecha de Inicio - Fecha de Fin",
+      "descripcion": "Descripción de las responsabilidades y logros en este trabajo."
+    },
+    {
+      "id": 14,
+      "nombreEmpresa": "Nombre de la Empresa 2",
+      "cargo": "Cargo 2",
+      "fecha": "Fecha de Inicio - Fecha de Fin",
+      "descripcion": "Descripción de las responsabilidades y logros en este trabajo."
+    }
+  ],
+  "educacion": [
+    {
+      "id": 15,
+      "nombreUniversidad": "Nombre de la Universidad",
+      "tituloUniversitario": "Titulo Universitario",
+      "fechaGraduacion": "Fecha de Graduación"
+    },
+    {
+      "id": 16,
+      "nombreEscuela": "Nombre de la Escuela",
+      "gradoEscolar": "Grado Escolar",
+      "fechaGraduacion": "Fecha de Graduación"
+    }
+  ],
+  "habilidades": [
+    "Habilidad 1",
+    "Habilidad 2",
+    "Habilidad 3"
+  ]
 }
