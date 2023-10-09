@@ -26,7 +26,7 @@ h1 {
 p {
     font-size: 18px;
     margin: 5px 0;
-    color: #fff;
+    color: #0c0707;
 }
 .section {
     margin-bottom: 30px;
@@ -192,6 +192,7 @@ footer a:hover {
 .perfil-usuario .bio-usuario {
     font-size: 1em;
     margin-bottom: .75rem;
+    color: #fff;
     
 }
 .perfil-usuario .lista-perfil {
