@@ -192,6 +192,7 @@ footer a:hover {
 .perfil-usuario .bio-usuario {
     font-size: 1em;
     margin-bottom: .75rem;
+    
 }
 .perfil-usuario .lista-perfil {
     list-style: none;
@@ -257,6 +258,7 @@ footer a:hover {
         font-size: 1em;
         overflow:hidden;
         text-overflow: ellipsis;
+
         white-space: nowrap;
     }
     .perfil-usuario .titulo-usuario {
