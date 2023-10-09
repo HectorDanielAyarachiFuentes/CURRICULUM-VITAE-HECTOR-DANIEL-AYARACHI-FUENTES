@@ -362,11 +362,11 @@ footer a:hover {
 
 /* Estilos para la sección */
 .section {
-    margin: 20px; /* Márgenes de 20px en todos los lados de la sección */
+    margin: 20px auto; /* Márgenes de 20px en los lados izquierdo y derecho, y centrar horizontalmente */
     padding: 20px; /* Relleno de 20px dentro de la sección */
     border: 1px solid #ccc; /* Borde de 1px con color gris claro */
     border-radius: 10px; /* Bordes redondeados */
-    text-align: justify; /* Justifica el texto dentro de la sección */
+    text-align: center; /* Centra todo el contenido horizontalmente */
 }
 
 /* Estilos para el título */
@@ -378,5 +378,11 @@ footer a:hover {
 /* Estilos para el párrafo */
 .section p {
     margin-bottom: 10px; /* Márgenes en la parte inferior del párrafo */
-    text-align: justify; /* Justifica el texto dentro de los párrafos */
+    text-align: center; /* Centra el texto dentro de los párrafos */
 }
+
+
+
+
+
+
