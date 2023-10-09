@@ -298,6 +298,7 @@ footer a:hover {
 @media (max-width: 320px) {
     .perfil-usuario .contenedor-perfil {
         width: 100%;
+        overflow: hidden; /* Evitar scroll horizontal */
     }
     .perfil-usuario .avatar-perfil {
         left: calc(50% - 115px);
@@ -341,7 +342,8 @@ footer a:hover {
         width: 100%; /* Cambiar a 100% para que ocupe todo el ancho disponible */
         background-color: #fff;
         border-radius: 12px;
-        box-shadow: 0 0 12px 2px rgba(0, 0, 0, .1);
+        box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden; /* Evitar scroll horizontal */
     }
     .perfil-usuario .icono-perfil {
         display: inline-block;
