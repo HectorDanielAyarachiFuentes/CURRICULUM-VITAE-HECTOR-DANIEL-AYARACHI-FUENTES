@@ -346,6 +346,11 @@ footer a:hover {
     .perfil-usuario .icono-perfil {
         display: inline-block;
     }
+    p {
+        font-size: 16px; /* Cambia el tamaño de fuente para pantallas de 320px */
+        margin: 5px 0;
+        color: #0c0707;
+    }
 }
 
 
