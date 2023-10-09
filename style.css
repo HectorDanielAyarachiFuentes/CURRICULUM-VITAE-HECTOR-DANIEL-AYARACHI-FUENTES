@@ -386,3 +386,55 @@ footer a:hover {
 
 
 
+/* Estilos para el contenedor de los botones */
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para los botones individuales */
+.btn-item {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 55px;
+    color: white;
+    cursor: pointer;
+    min-width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Estilos para los botones de redes sociales */
+.facebook {
+    background: rgb(59, 89, 153);
+}
+
+.whatsapp {
+    background: rgb(37, 211, 102);
+}
+
+.linkedin {
+    background: rgb(0, 119, 181);
+}
+
+.email {
+    background: rgb(23, 105, 255);
+}
+
+/* Estilos para el texto del botón */
+.btn-name {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* Estilos para los iconos del botón */
+.btn-icon {
+    font-size: 24px;
+}
