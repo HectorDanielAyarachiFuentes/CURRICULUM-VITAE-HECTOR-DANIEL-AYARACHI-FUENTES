@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -224,7 +224,7 @@ footer a:hover {
     width: calc(100% - 200px - 8rem);
 }
 .perfil-usuario .menu-perfil ul li {
-    margin-right: 1rem;
+    margin-right: 1px;
 }
 .perfil-usuario .menu-perfil a {
     display: block;
@@ -286,8 +286,11 @@ footer a:hover {
         background-color: #fff;
         border-radius: 12px;
         box-shadow: 0 0 12px 2px rgba(0, 0, 0, .1);
+        padding: 2.5rem 0;
     }
     .perfil-usuario .icono-perfil {
         display: inline-block;
     }
 }
+
+
