@@ -6,7 +6,7 @@ body {
     background-image: repeating-linear-gradient(90deg, hsla(196,0%,79%,0.06) 0px, hsla(196,0%,79%,0.06) 1px,transparent 1px, transparent 96px),repeating-linear-gradient(0deg, hsla(196,0%,79%,0.06) 0px, hsla(196,0%,79%,0.06) 1px,transparent 1px, transparent 96px),repeating-linear-gradient(0deg, hsla(196,0%,79%,0.09) 0px, hsla(196,0%,79%,0.09) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(90deg, hsla(196,0%,79%,0.09) 0px, hsla(196,0%,79%,0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
 }
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -447,4 +447,39 @@ footer a:hover {
 /* Estilos para los iconos del botón */
 .btn-icon {
     font-size: 24px;
+}
+
+
+
+
+
+/* Estilos para resoluciones mayores a 320px */
+.menu-perfil {
+    display: block;
+}
+
+.menu-perfil ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-perfil li {
+    margin-bottom: 10px;
+}
+
+.menu-perfil a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para resoluciones menores o iguales a 320px (dispositivos móviles) */
+@media (max-width: 320px) {
+    .menu-perfil li {
+        text-align: center; /* Centra los elementos */
+    }
+
+    .menu-perfil a {
+        display: block; /* Convierte los elementos en bloques para ocupar todo el ancho */
+        padding: 10px 0; /* Añade espacio alrededor del enlace para hacerlo más grande y fácil de tocar en pantallas táctiles */
+    }
 }
