@@ -295,3 +295,57 @@ footer a:hover {
 }
 
 
+@media (max-width: 780px) {
+    .perfil-usuario .contenedor-perfil {
+        width: 100%;
+    }
+    .perfil-usuario .avatar-perfil {
+        left: calc(50% - 115px)
+    }
+    .perfil-usuario .datos-perfil {
+        bottom: 200px;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    .perfil-usuario .bio-usuario {
+        font-size: 1em;
+        overflow:hidden;
+        text-overflow: ellipsis;
+
+        white-space: nowrap;
+    }
+    .perfil-usuario .titulo-usuario {
+        font-size: 2.1rem;
+    }
+    .perfil-usuario .portada-perfil {
+        height: 28rem;
+    }
+    .perfil-usuario .menu-perfil ul {
+        flex-direction: column;
+    }
+    .perfil-usuario .lista-perfil {
+        display: block;
+    }
+    .perfil-usuario .menu-perfil {
+        margin-top: 2rem;
+    }
+    .perfil-usuario .menu-perfil ul {
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2.5rem;
+        width: 70%;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 0 12px 2px rgba(0, 0, 0, .1);
+        padding: 2.5rem 0;
+    }
+    .perfil-usuario .icono-perfil {
+        display: inline-block;
+    }
+}
+
+
