@@ -57,19 +57,18 @@
     "id": 11,
     "direccion": "mp4o@hotmail.com"
   },
-  
-    "resumen": {
-      "id": 12,
-      "titulo": "Información personal",
-      "contenido": "Soy Héctor Daniel Ayarachi Fuentes, una persona enérgica y apasionada, con habilidades de comunicación sólidas. Mi enfoque está en la creatividad, el trabajo en equipo y la ética profesional. Busco constantemente aprender y crecer.",
-      "detalles": {
-        "Nacionalidad": "Argentina",
-        "DNI": "35.492.138",
-        "Fecha de Nacimiento": "30 de Noviembre de 1990",
-        "Estado Civil": "Soltero (Sin hijos)",
-        "Edad": "32 años"
-      }
-    },
+  "resumen": {
+    "id": 12,
+    "titulo": "Información personal",
+    "contenido": "Soy Héctor Daniel Ayarachi Fuentes, una persona enérgica y apasionada, con habilidades de comunicación sólidas. Mi enfoque está en la creatividad, el trabajo en equipo y la ética profesional. Busco constantemente aprender y crecer.",
+    "detalles": {
+      "Nacionalidad": "Argentina",
+      "DNI": "35.492.138",
+      "Fecha de Nacimiento": "30 de Noviembre de 1990",
+      "Estado Civil": "Soltero (Sin hijos)",
+      "Edad": "32 años"
+    }
+  },
   "experienciaLaboral": [
     {
       "id": 13,
@@ -89,15 +88,40 @@
   "educacion": [
     {
       "id": 15,
-      "nombreUniversidad": "Nombre de la Universidad",
-      "tituloUniversitario": "Titulo Universitario",
-      "fechaGraduacion": "Fecha de Graduación"
+      "nombre": "Primaria",
+      "institucion": "Escuela Santa Teresa de Jesús",
+      "direccion": "Carmen de Patagones 450 - Neuquén 8300",
+      "fecha": "1995-2004"
     },
     {
-      "id": 16,
-      "nombreEscuela": "Nombre de la Escuela",
-      "gradoEscolar": "Grado Escolar",
-      "fechaGraduacion": "Fecha de Graduación"
+      "nombre": "Secundaria",
+      "institucion": "Escuela Santa Teresa de Jesús",
+      "direccion": "Carmen de Patagones 450 - Neuquén 8300",
+      "fecha": "2005-2009",
+      "titulo": "Bachiller con orientación Humanístico"
+    },
+    {
+      "nombre": "Universitario",
+      "institucion": "Universidad Nacional del Comahue – Facultad de Derecho y Ciencias Sociales",
+      "fecha_inicio": "2010",
+      "fecha_fin": "2016",
+      "detalle": "Materias y finales rendidos hasta 3er año de la carrera."
+    },
+    {
+      "nombre": "Terciario",
+      "institucion": "I.P.E.T",
+      "fecha_fin": "TERMINADO",
+      "direccion": "Dirección: Centro Este, Avenida Argentina 935, Q8300 Neuquén",
+
+      "detalle": "LIC EN PROCESO"
+    },
+    {
+      "nombre": "PROGRAMADOR WEB JUNIOR",
+      "institucion": "ARGENTINA PROGRAMA"
+    },
+    {
+      "nombre": "PROGRAMADOR PYTHON JUNIOR",
+      "institucion": "ARGENTINA PROGRAMA"
     }
   ],
   "habilidades": [

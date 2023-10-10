@@ -62,23 +62,22 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <p>${experiencia.descripcion}</p>`;
                 experienciaLaboralList.appendChild(li);
             });
-
- // Actualiza la educación
-const educacionList = document.querySelector("#educacion ul");
-educacionList.innerHTML = ""; // Limpiar la lista existente
-
-data.educacion.forEach((educacion) => {
-    const li = document.createElement("li");
-    li.innerHTML = `<h3>${educacion.nombreUniversidad || educacion.nombreEscuela}</h3>
-                    <p>${educacion.tituloUniversitario || educacion.gradoEscolar}`;
-    
-    if (educacion.fechaGraduacion) {
-        li.innerHTML += ` | ${educacion.fechaGraduacion}`;
-    }
-
-    li.innerHTML += `</p>`;
-    educacionList.appendChild(li);
-});
+ 
+             // Actualiza la información de educación
+             const educacionList = document.querySelector("#educacion ul");
+             educacionList.innerHTML = ""; // Limpiar la lista existente
+ 
+             data.educacion.forEach((educacion) => {
+                 const li = document.createElement("li");
+                 li.innerHTML = `<h3>${educacion.nombre}</h3>
+                                 <p>${educacion.institucion}</p>
+                                 <p>${educacion.direccion || ''}</p>
+                                 <p>${educacion.fecha || ''}</p>
+                                 <p>${educacion.titulo || ''}</p>
+                                 <p>${educacion.fecha_inicio || ''} - ${educacion.fecha_fin || ''}</p>
+                                 <p>${educacion.detalle || ''}</p>`;
+                 educacionList.appendChild(li);
+             });
 
 // Ahora, actualiza la sección del "resumen" en el HTML
 const resumenElement = document.querySelector("#resumen");
