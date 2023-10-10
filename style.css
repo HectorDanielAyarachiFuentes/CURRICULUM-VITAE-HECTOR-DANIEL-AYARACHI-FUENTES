@@ -395,20 +395,11 @@ footer a:hover {
     min-width: 200px;
     box-sizing: border-box;
     text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
-/* Estilos para los botones de redes sociales */
-.facebook {
-    background: rgb(59, 89, 153);
-}
-.whatsapp {
-    background: rgb(37, 211, 102);
-}
-.linkedin {
-    background: rgb(0, 119, 181);
-}
-.email {
-    background: rgb(23, 105, 255);
-}
+
+
+
 /* Estilos para el texto del botón */
 .btn-name {
     margin-right: 20px;
@@ -442,4 +433,66 @@ footer a:hover {
         display: block; /* Convierte los elementos en bloques para ocupar todo el ancho */
         padding: 10px 0; /* Añade espacio alrededor del enlace para hacerlo más grande y fácil de tocar en pantallas táctiles */
     }
+}
+
+/* Estilos para los botones */
+.btn-item {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 55px;
+    color: white;
+    cursor: pointer;
+    min-width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilos para los botones de redes sociales */
+.facebook, .whatsapp, .linkedin, .email, .github {
+    border: 1px solid transparent;
+}
+
+.facebook {
+    background: rgb(59, 89, 153);
+}
+
+.whatsapp {
+    background: rgb(37, 211, 102);
+}
+
+.linkedin {
+    background: rgb(0, 119, 181);
+}
+
+.email {
+    background: rgb(23, 105, 255);
+}
+
+/* Estilos para el botón GitHub */
+.github {
+    background-color: #2ea44f; /* Color de fondo similar a GitHub */
+    border-color: #e1e4e8; /* Color del borde similar a GitHub */
+    color: #ffffff; /* Color del texto */
+    font-weight: bold;
+    padding:  20px;
+    text-decoration: none;
+    display: flex; /* Para centrar contenido verticalmente */
+    justify-content: center; /* Para centrar contenido horizontalmente */
+    align-items: center; /* Para centrar contenido verticalmente */
+
+
+}
+
+/* Efecto hover para todos los botones */
+.btn-item:hover {
+    background-color: #3f5e9b; /* Color de fondo al pasar el mouse */
+    border-color: #385898; /* Color del borde al pasar el mouse */
+}
+
+.github:hover {
+    background-color: #218c42; /* Color de fondo al pasar el mouse */
+    border-color: #218c42; /* Color del borde al pasar el mouse */
 }
