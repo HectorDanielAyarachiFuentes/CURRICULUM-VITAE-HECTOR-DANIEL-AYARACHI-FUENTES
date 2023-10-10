@@ -72,22 +72,36 @@
   "experienciaLaboral": [
     {
       "id": 13,
-      "nombreEmpresa": "Nombre de la Empresa 1",
-      "cargo": "Cargo 1",
-      "fecha": "Fecha de Inicio - Fecha de Fin",
+      "nombreEmpresa": "Despensa Familiar",
+      "cargo": "Atención al público, reposito, tareas varias",
+      "fecha": "1999-Actualidad",
       "descripcion": "Descripción de las responsabilidades y logros en este trabajo."
     },
     {
       "id": 14,
-      "nombreEmpresa": "Nombre de la Empresa 2",
-      "cargo": "Cargo 2",
-      "fecha": "Fecha de Inicio - Fecha de Fin",
+      "nombreEmpresa": "Hospital Castro Rendón",
+      "cargo": "Auxiliar Administrativo",
+      "fecha": "14/06/17 - 26/04/18",
+      "descripcion": "Como parte del personal mensualizado, recorrí el hospital. Dentro de las habilidades administrativas adquiridas, hago hincapié en el diálogo y la empatía, y por sobre todo en la responsabilidad de cada acto administrativo, dentro de mis tareas estaban realizar los trámites para nombramiento del personal de enfermería, y control del depósito de maestranza, organizar agendas médicas y coordinar consultorios médicos, pudiendo explayar lo aprendido dentro de su institución."
+    },
+    {
+      "id": 15,
+      "nombreEmpresa": "MendoMotos",
+      "cargo": "Asesor Comercial",
+      "fecha": "Diciembre 2018 - Septiembre 2019",
       "descripcion": "Descripción de las responsabilidades y logros en este trabajo."
+    },
+    {
+      "id": 16,
+      "nombreEmpresa": "Lugares Varios",
+      "cargo": "Asesor Comercial",
+      "fecha": "Actualidad",
+      "descripcion": "Descripción de las responsabilidades y logros en este trabajo: vender 4 motos en un día."
     }
   ],
   "educacion": [
     {
-      "id": 15,
+      "id": 17,
       "nombre": "Primaria",
       "institucion": "Escuela Santa Teresa de Jesús",
       "direccion": "Carmen de Patagones 450 - Neuquén 8300",
@@ -112,7 +126,6 @@
       "institucion": "I.P.E.T",
       "fecha_fin": "TERMINADO",
       "direccion": "Dirección: Centro Este, Avenida Argentina 935, Q8300 Neuquén",
-
       "detalle": "LIC EN PROCESO"
     },
     {
@@ -125,8 +138,16 @@
     }
   ],
   "habilidades": [
-    "Habilidad 1",
-    "Habilidad 2",
-    "Habilidad 3"
-  ]
+    "Programación en Python",
+    "CSS",
+    "HTML",
+    "JavaScript (JS)",
+    "JSON",
+    "React",
+    "Bootstrap",
+    "Habilidades de Comunicación Efectiva",
+    "Gestión Eficiente del Tiempo",
+    "Técnico Superior en Recursos Humanos",
+    "Alegre y Divertido"
+]
 }

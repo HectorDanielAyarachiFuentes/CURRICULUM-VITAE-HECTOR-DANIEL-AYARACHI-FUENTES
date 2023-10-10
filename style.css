@@ -86,8 +86,6 @@ footer a:hover {
     margin-right: 10px;
     color: #007bff;
 }
-
-
 .perfil-usuario {
     background: linear-gradient(#3FD0F4, transparent);
     color: #333;
@@ -140,13 +138,11 @@ footer a:hover {
     border: 8px solid #FFFFFF;
     box-shadow: 0 0 12px 2px rgba(0, 0, 0, .2);
 }
-
 .perfil-usuario .avatar-perfil img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .perfil-usuario .cambiar-foto {
     position: absolute;
     width: 100%;
@@ -204,7 +200,6 @@ footer a:hover {
     font-size: 1em;
     margin-right: 1rem;
 }
-
 .perfil-usuario .opcciones-perfil {
     display: block;
     position: absolute;
@@ -241,7 +236,6 @@ footer a:hover {
     background-color: #4CB0C6;
     color: #fff;
 }
-
 @media (max-width: 780px) {
     .perfil-usuario .contenedor-perfil {
         width: 100%;
@@ -260,7 +254,6 @@ footer a:hover {
         font-size: 1em;
         overflow:hidden;
         text-overflow: ellipsis;
-
         white-space: nowrap;
     }
     .perfil-usuario .titulo-usuario {
@@ -298,8 +291,6 @@ footer a:hover {
         background-image: repeating-linear-gradient(90deg, hsla(196,0%,79%,0.06) 0px, hsla(196,0%,79%,0.06) 1px,transparent 1px, transparent 96px),repeating-linear-gradient(0deg, hsla(196,0%,79%,0.06) 0px, hsla(196,0%,79%,0.06) 1px,transparent 1px, transparent 96px),repeating-linear-gradient(0deg, hsla(196,0%,79%,0.09) 0px, hsla(196,0%,79%,0.09) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(90deg, hsla(196,0%,79%,0.09) 0px, hsla(196,0%,79%,0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
     }
 }
-
-
 @media (max-width: 320px) {
     .perfil-usuario .contenedor-perfil {
         width: 100%;
@@ -359,17 +350,11 @@ footer a:hover {
         margin: 5px 0;
         color: #0c0707;
     }
-
     .container {
         
         background-image: repeating-linear-gradient(90deg, hsla(196,0%,79%,0.06) 0px, hsla(196,0%,79%,0.06) 1px,transparent 1px, transparent 96px),repeating-linear-gradient(0deg, hsla(196,0%,79%,0.06) 0px, hsla(196,0%,79%,0.06) 1px,transparent 1px, transparent 96px),repeating-linear-gradient(0deg, hsla(196,0%,79%,0.09) 0px, hsla(196,0%,79%,0.09) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(90deg, hsla(196,0%,79%,0.09) 0px, hsla(196,0%,79%,0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
     }
 }
-
-
-
-
-
 /* Estilos para la sección */
 .section {
     margin: 20px auto; /* Márgenes de 20px en los lados izquierdo y derecho, y centrar horizontalmente */
@@ -378,24 +363,16 @@ footer a:hover {
     border-radius: 10px; /* Bordes redondeados */
     text-align: center; /* Centra todo el contenido horizontalmente */
 }
-
 /* Estilos para el título */
 .section h2 {
     margin-top: 20px; /* Margen superior de 20px para el título */
     text-align: center; /* Centra los títulos horizontalmente */
 }
-
 /* Estilos para el párrafo */
 .section p {
     margin-bottom: 10px; /* Márgenes en la parte inferior del párrafo */
     text-align: center; /* Centra el texto dentro de los párrafos */
 }
-
-
-
-
-
-
 /* Estilos para el contenedor de los botones */
 .social-buttons {
     display: flex;
@@ -406,7 +383,6 @@ footer a:hover {
     padding: 10px;
     box-sizing: border-box;
 }
-
 /* Estilos para los botones individuales */
 .btn-item {
     flex-grow: 1;
@@ -420,64 +396,48 @@ footer a:hover {
     box-sizing: border-box;
     text-align: center;
 }
-
 /* Estilos para los botones de redes sociales */
 .facebook {
     background: rgb(59, 89, 153);
 }
-
 .whatsapp {
     background: rgb(37, 211, 102);
 }
-
 .linkedin {
     background: rgb(0, 119, 181);
 }
-
 .email {
     background: rgb(23, 105, 255);
 }
-
 /* Estilos para el texto del botón */
 .btn-name {
     margin-right: 20px;
     font-size: 20px;
 }
-
 /* Estilos para los iconos del botón */
 .btn-icon {
     font-size: 24px;
 }
-
-
-
-
-
 /* Estilos para resoluciones mayores a 320px */
 .menu-perfil {
     display: block;
 }
-
 .menu-perfil ul {
     list-style-type: none;
     padding: 0;
 }
-
 .menu-perfil li {
     margin-bottom: 10px;
 }
-
 .menu-perfil a {
     text-decoration: none;
     color: #333;
 }
-
 /* Estilos para resoluciones menores o iguales a 320px (dispositivos móviles) */
 @media (max-width: 320px) {
     .menu-perfil li {
         text-align: center; /* Centra los elementos */
     }
-
     .menu-perfil a {
         display: block; /* Convierte los elementos en bloques para ocupar todo el ancho */
         padding: 10px 0; /* Añade espacio alrededor del enlace para hacerlo más grande y fácil de tocar en pantallas táctiles */
