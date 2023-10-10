@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Ahora, actualiza la sección del "resumen" en el HTML
 const resumenElement = document.querySelector("#resumen");
 resumenElement.innerHTML = `<h2>${data.resumen.titulo}</h2>
-<p>${data.resumen.contenido}</p>
+<p><br>${data.resumen.contenido}</p>
 <ul>
     <li><strong>Nacionalidad:</strong> ${data.resumen.detalles.Nacionalidad}</li>
     <li><strong>DNI:</strong> ${data.resumen.detalles.DNI}</li>
