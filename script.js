@@ -80,7 +80,17 @@ data.educacion.forEach((educacion) => {
     educacionList.appendChild(li);
 });
 
-
+// Ahora, actualiza la sección del "resumen" en el HTML
+const resumenElement = document.querySelector("#resumen");
+resumenElement.innerHTML = `<h2>${data.resumen.titulo}</h2>
+<p>${data.resumen.contenido}</p>
+<ul>
+    <li><strong>Nacionalidad:</strong> ${data.resumen.detalles.Nacionalidad}</li>
+    <li><strong>DNI:</strong> ${data.resumen.detalles.DNI}</li>
+    <li><strong>Fecha de Nacimiento:</strong> ${data.resumen.detalles["Fecha de Nacimiento"]}</li>
+    <li><strong>Estado Civil:</strong> ${data.resumen.detalles["Estado Civil"]}</li>
+    <li><strong>Edad:</strong> ${data.resumen.detalles.Edad}</li>
+</ul>`;
 
 
             // Actualiza las habilidades

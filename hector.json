@@ -57,11 +57,19 @@
     "id": 11,
     "direccion": "mp4o@hotmail.com"
   },
-  "resumen": {
-    "id": 12,
-    "titulo": "Resumen",
-    "contenido": "Soy Héctor Daniel Ayarachi Fuentes, una persona enérgica y apasionada, con habilidades de comunicación sólidas. Mi enfoque está en la creatividad, el trabajo en equipo y la ética profesional. Busco constantemente aprender y crecer."
-  },
+  
+    "resumen": {
+      "id": 12,
+      "titulo": "Información personal",
+      "contenido": "Soy Héctor Daniel Ayarachi Fuentes, una persona enérgica y apasionada, con habilidades de comunicación sólidas. Mi enfoque está en la creatividad, el trabajo en equipo y la ética profesional. Busco constantemente aprender y crecer.",
+      "detalles": {
+        "Nacionalidad": "Argentina",
+        "DNI": "35.492.138",
+        "Fecha de Nacimiento": "30 de Noviembre de 1990",
+        "Estado Civil": "Soltero (Sin hijos)",
+        "Edad": "32 años"
+      }
+    },
   "experienciaLaboral": [
     {
       "id": 13,
