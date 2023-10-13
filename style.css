@@ -174,18 +174,21 @@ footer a:hover {
     padding-right: 1rem;
 }
 .perfil-usuario .titulo-usuario {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     white-space: nowrap;
-    margin-bottom: .5rem;
+    margin-bottom: 0.25rem; /* Ajusta el margen inferior según tus preferencias */
     overflow: hidden;
     text-overflow: ellipsis;
+    font-weight: bold; /* Texto en negrita */
 }
+
+/* Estilos para la bio del usuario */
 .perfil-usuario .bio-usuario {
-    font-size: 1em;
-    margin-bottom: .75rem;
+    font-size: 2.5rem; /* Tamaño de fuente más grande para bio-usuario */
+    margin-bottom: 0.5rem; /* Ajusta el margen inferior según tus preferencias */
     color: #fff;
-    
-}
+    font-weight: bold; /* Texto en negrita */
+} 
 .perfil-usuario .lista-perfil {
     list-style: none;
 }
