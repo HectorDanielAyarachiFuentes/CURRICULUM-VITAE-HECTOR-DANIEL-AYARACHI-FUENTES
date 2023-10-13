@@ -3,17 +3,12 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-    background-image: repeating-radial-gradient(circle at center center, rgb(3,69,150) 0px, rgb(3,69,150) 5px,transparent 5px, transparent 7px),linear-gradient(135deg, rgb(9,56,115) 0%,rgb(9,56,115) 39%); background-size: 33px 33px;}
+    background-image: repeating-radial-gradient(circle at center center, rgb(3,69,150) 0px, rgb(3,69,150) 5px,transparent 5px, transparent 7px),linear-gradient(405deg, rgb(9,56,115) 0%,rgb(9,56,115) 39%); background-size: 33px 33px;}
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
+    background-image: repeating-linear-gradient(135deg, hsla(35,0%,71%,0.09) 0px, hsla(35,0%,71%,0.09) 1px,transparent 1px, transparent 11px),repeating-linear-gradient(45deg, hsla(35,0%,71%,0.09) 0px, hsla(35,0%,71%,0.09) 1px,transparent 1px, transparent 11px),linear-gradient(90deg, hsl(183,0%,100%),hsl(183,0%,100%));}
 header {
     text-align: center;
     padding: 20px 0;
