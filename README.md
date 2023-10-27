@@ -14,6 +14,26 @@ Mi currículum vitae ha sido desarrollado utilizando una variedad de tecnología
 
 - Responsive Design: Mi CV ha sido diseñado con un enfoque en la respuesta, lo que garantiza que se vea y funcione correctamente en una variedad de dispositivos, incluidos teléfonos móviles, tabletas y computadoras de escritorio.
 
+## Imágenes de Visualización
+
+A continuación, te muestro cómo se ve mi CV en diferentes dispositivos:
+
+### Teléfono Móvil
+![Teléfono Móvil](https://github.com/HectorDanielAyarachiFuentes/CURRICULUM-VITAE-HECTOR-DANIEL-AYARACHI-FUENTES/blob/main/ImagenesReadme/Celular.png?raw=true)
+*Descripción*: Mi CV es altamente receptivo y se adapta perfectamente a pantallas de teléfono móvil, ofreciendo una experiencia de usuario óptima en dispositivos pequeños.
+
+### Computadora Portátil
+![Computadora Portátil](https://github.com/HectorDanielAyarachiFuentes/CURRICULUM-VITAE-HECTOR-DANIEL-AYARACHI-FUENTES/blob/main/ImagenesReadme/Notebook.png?raw=true)
+*Descripción*: La maquetación de mi CV se adapta de manera inteligente a las pantallas de computadoras portátiles, proporcionando una presentación impecable en este tipo de dispositivos.
+
+### Tableta
+![Tableta](https://github.com/HectorDanielAyarachiFuentes/CURRICULUM-VITAE-HECTOR-DANIEL-AYARACHI-FUENTES/blob/main/ImagenesReadme/tablet.png?raw=true)
+*Descripción*: La versión de mi CV para tabletas ofrece una experiencia visual atractiva y una navegación intuitiva.
+
+### Vista General
+![Vista General](https://github.com/HectorDanielAyarachiFuentes/CURRICULUM-VITAE-HECTOR-DANIEL-AYARACHI-FUENTES/blob/main/ImagenesReadme/totalcv.png?raw=true)
+*Descripción*: Esta es una vista general de mi currículum vitae en su totalidad, lo que muestra la disposición y el diseño general.
+
 ## Futuras Mejoras
 
 En el futuro, planeo seguir mejorando mi currículum vitae y añadir características adicionales utilizando la tecnología de React. Estas mejoras incluirán:
