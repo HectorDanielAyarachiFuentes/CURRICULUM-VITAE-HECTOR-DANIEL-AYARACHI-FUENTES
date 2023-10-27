@@ -25,8 +25,8 @@
   "correoElectronico": {
     "id": 5,
     "titulo": "Mi Correo Electrónico",
-    "contenido": "mp4o@hotmail.com",
-    "enlace": "mailto:mp4o@hotmail.com"
+    "contenido": "ramonchelo506@gmail.com",
+    "enlace": "mailto:ramonchelo506@gmail.com"
   },
   "avatar": {
     "id": 6,
@@ -55,7 +55,7 @@
   ],
   "email": {
     "id": 11,
-    "direccion": "mp4o@hotmail.com"
+    "direccion": "ramonchelo506@gmail.com"
   },
   "resumen": {
     "id": 12,
