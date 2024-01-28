@@ -495,6 +495,7 @@ footer a:hover {
 }
 
 
+/* Boton de descarga de PDF */
 
 button {
     background-color: #4CAF50; /* Green */
@@ -514,7 +515,7 @@ button:hover {
 }
 
 
-/* print-style.css */
+/* Formato para imprimir */
 @media print {
     body {
         font-family: Arial, sans-serif;

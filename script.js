@@ -92,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+            // Para descargar en formato PDF
 
     function downloadPDF() {
         // Load print-optimized CSS
