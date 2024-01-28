@@ -493,3 +493,47 @@ footer a:hover {
     background-color: #218c42; /* Color de fondo al pasar el mouse */
     border-color: #218c42; /* Color del borde al pasar el mouse */
 }
+
+
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* print-style.css */
+@media print {
+    body {
+        font-family: Arial, sans-serif;
+        color: #000;
+        background-color: #fff;
+    }
+
+    .section {
+        page-break-inside: avoid;
+    }
+
+    header, footer, .no-print {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ... other styles ... */
+}
