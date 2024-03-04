@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
             data.experienciaLaboral.forEach((experiencia) => {
                 const li = document.createElement("li");
                 li.innerHTML = `<h3>${experiencia.nombreEmpresa}</h3>
-                                 <p>${experiencia.cargo} | ${experiencia.fecha}</p>
+                                 <p>${experiencia.cargo}  ${experiencia.fecha}</p>
                                  <p>${experiencia.descripcion}</p>`;
                 experienciaLaboralList.appendChild(li);
             });

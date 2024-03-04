@@ -72,10 +72,10 @@
   "experienciaLaboral": [
     {
       "id": 13,
-      "nombreEmpresa": "Despensa Familiar",
-      "cargo": "Atención al público, reposito, tareas varias",
-      "fecha": "1999-Actualidad",
-      "descripcion": "Descripción de las responsabilidades y logros en este trabajo."
+      "nombreEmpresa": "",
+      "cargo": "",
+      "fecha": "",
+      "descripcion": ""
     },
     {
       "id": 14,
